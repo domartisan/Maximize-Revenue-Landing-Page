@@ -32,7 +32,6 @@ import {
   deriveRenderOpts,
   ensureGlobalVariants
 } from "@plasmicapp/react-web";
-import { Embed } from "@plasmicpkgs/plasmic-basic-components"; // plasmic-import: PKldDYkH42/codeComponent
 
 import "@plasmicapp/react-web/lib/plasmic.css";
 
@@ -62,7 +61,6 @@ export const PlasmicHomepage__ArgProps = new Array<ArgPropType>();
 
 export type PlasmicHomepage__OverridesType = {
   root?: p.Flex<"div">;
-  embedHtml?: p.Flex<typeof Embed>;
   updatedComp?: p.Flex<"div">;
   popMap?: p.Flex<"div">;
   group934?: p.Flex<"div">;
@@ -151,12 +149,6 @@ function PlasmicHomepage__RenderFunc(props: {
             sty.root
           )}
         >
-          <Embed
-            data-plasmic-name={"embedHtml"}
-            data-plasmic-override={overrides.embedHtml}
-            className={classNames("__wab_instance", sty.embedHtml)}
-          />
-
           <div
             data-plasmic-name={"updatedComp"}
             data-plasmic-override={overrides.updatedComp}
@@ -3662,7 +3654,6 @@ function PlasmicHomepage__RenderFunc(props: {
 const PlasmicDescendants = {
   root: [
     "root",
-    "embedHtml",
     "updatedComp",
     "popMap",
     "group934",
@@ -3700,7 +3691,6 @@ const PlasmicDescendants = {
     "submit",
     "image1"
   ],
-  embedHtml: ["embedHtml"],
   updatedComp: [
     "updatedComp",
     "popMap",
@@ -3807,7 +3797,6 @@ type DescendantsType<T extends NodeNameType> =
   (typeof PlasmicDescendants)[T][number];
 type NodeDefaultElementType = {
   root: "div";
-  embedHtml: typeof Embed;
   updatedComp: "div";
   popMap: "div";
   group934: "div";
@@ -3906,7 +3895,6 @@ export const PlasmicHomepage = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
-    embedHtml: makeNodeComponent("embedHtml"),
     updatedComp: makeNodeComponent("updatedComp"),
     popMap: makeNodeComponent("popMap"),
     group934: makeNodeComponent("group934"),
