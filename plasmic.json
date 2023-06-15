@@ -1,0 +1,197 @@
+{
+  "platform": "react",
+  "code": {
+    "lang": "ts",
+    "scheme": "blackbox",
+    "reactRuntime": "classic"
+  },
+  "style": {
+    "scheme": "css-modules",
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+  },
+  "images": {
+    "scheme": "files",
+    "publicDir": "../../public",
+    "publicUrlPrefix": "/static/"
+  },
+  "tokens": {
+    "scheme": "theo",
+    "tokensFilePath": "plasmic-tokens.theo.json"
+  },
+  "srcDir": "src/components",
+  "defaultPlasmicDir": "./plasmic",
+  "projects": [
+    {
+      "projectId": "caTPwKxj5ZrD9LQ7DMdK4Z",
+      "projectApiToken": "vXGGQpdi9fhcncabBdg8DcMRUbkz0iRW6HS1jzQufQR6QH0MasPwr9SX7ap4SsK3xXwwXmzZtglWGe0Rm2nw",
+      "projectName": "plasmic-basic-components",
+      "version": "3.19.0",
+      "cssFilePath": "plasmic/plasmic_basic_components/plasmic_plasmic_basic_components.module.css",
+      "components": [],
+      "icons": [],
+      "images": [],
+      "indirect": true,
+      "globalContextsFilePath": "",
+      "codeComponents": [
+        {
+          "id": "CMDBvOhaI4s",
+          "name": "Iframe",
+          "displayName": "hostless-iframe",
+          "componentImportPath": "@plasmicpkgs/plasmic-basic-components"
+        },
+        {
+          "id": "RhitNJW5Zu-",
+          "name": "Video",
+          "displayName": "hostless-html-video",
+          "componentImportPath": "@plasmicpkgs/plasmic-basic-components"
+        },
+        {
+          "id": "PKldDYkH42",
+          "name": "Embed",
+          "displayName": "hostless-embed",
+          "componentImportPath": "@plasmicpkgs/plasmic-basic-components"
+        },
+        {
+          "id": "D4RbnlpRXg3",
+          "name": "DataProvider",
+          "displayName": "hostless-data-provider",
+          "componentImportPath": "@plasmicpkgs/plasmic-basic-components"
+        }
+      ]
+    },
+    {
+      "projectId": "v51rPtUihCfjY6ALjX9xEj",
+      "projectApiToken": "cFRs5GhmyTEkM30hPEuK7JEKLK7eYWRgAo9wwPJzr63RTTeBHIgVv9aM8IxlOQLcDFNmxUJS5xNLI1Lxpn5Q",
+      "projectName": "Blank project",
+      "version": "latest",
+      "cssFilePath": "plasmic/blank_project/plasmic_blank_project.module.css",
+      "components": [
+        {
+          "id": "eaqLfmmFRTrcP",
+          "name": "Homepage",
+          "type": "managed",
+          "projectId": "v51rPtUihCfjY6ALjX9xEj",
+          "renderModuleFilePath": "plasmic/blank_project/PlasmicHomepage.tsx",
+          "importSpec": {
+            "modulePath": "Homepage.tsx"
+          },
+          "cssFilePath": "plasmic/blank_project/PlasmicHomepage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        }
+      ],
+      "icons": [],
+      "images": [
+        {
+          "id": "KcjmEu-Lk",
+          "name": "image 1",
+          "filePath": "plasmic/blank_project/images/image1.png"
+        },
+        {
+          "id": "iDsyEMijHP",
+          "name": "Screen Shot 2023-04-10 at 2.49 1",
+          "filePath": "plasmic/blank_project/images/screenShot20230410At2491.png"
+        },
+        {
+          "id": "EbqnEGHafi",
+          "name": "AsusBrand 1",
+          "filePath": "plasmic/blank_project/images/asusBrand1.png"
+        },
+        {
+          "id": "gY2wsaYj0F",
+          "name": "Screen Shot 2023-04-10 at 2.47 1",
+          "filePath": "plasmic/blank_project/images/screenShot20230410At2471.png"
+        },
+        {
+          "id": "hD-SeeLgRN",
+          "name": "Group",
+          "filePath": "plasmic/blank_project/images/group.svg"
+        },
+        {
+          "id": "Urh6cDBuwB",
+          "name": "Anchorage",
+          "filePath": "plasmic/blank_project/images/anchorage.svg"
+        },
+        {
+          "id": "KYyx1alzu_",
+          "name": "West_Oregon",
+          "filePath": "plasmic/blank_project/images/westOregon.svg"
+        },
+        {
+          "id": "gVadTVWWPf",
+          "name": "Seattle",
+          "filePath": "plasmic/blank_project/images/seattle.svg"
+        },
+        {
+          "id": "-gnse0buSn",
+          "name": "Seattle 2",
+          "filePath": "plasmic/blank_project/images/seattle2.svg"
+        },
+        {
+          "id": "TYqBgwRWYD",
+          "name": "Dubai",
+          "filePath": "plasmic/blank_project/images/dubai.svg"
+        },
+        {
+          "id": "0Jo8qlGst8",
+          "name": "Muscat",
+          "filePath": "plasmic/blank_project/images/muscat.svg"
+        },
+        {
+          "id": "XJQzo-Phv7",
+          "name": "Tel_Aviv__x2F__Petach_Tikva",
+          "filePath": "plasmic/blank_project/images/telAvivX2FPetachTikva.svg"
+        },
+        {
+          "id": "57waMsL4Je",
+          "name": "Munich",
+          "filePath": "plasmic/blank_project/images/munich.svg"
+        },
+        {
+          "id": "uiP-uGLKRX",
+          "name": "Palermo",
+          "filePath": "plasmic/blank_project/images/palermo.svg"
+        },
+        {
+          "id": "sX-gQZTIIG",
+          "name": "Rectangle 5",
+          "filePath": "plasmic/blank_project/images/rectangle5.svg"
+        },
+        {
+          "id": "zNijwRkgXI",
+          "name": "SCVL_BIG 1",
+          "filePath": "plasmic/blank_project/images/scvlBig1.svg"
+        }
+      ],
+      "indirect": false,
+      "globalContextsFilePath": "",
+      "codeComponents": [
+        {
+          "id": "FhQuHt77OzPAcm",
+          "name": "PlasmicHead",
+          "displayName": "hostless-plasmic-head",
+          "componentImportPath": "@plasmicapp/react-web"
+        },
+        {
+          "id": "Hxr4hUJZeDiKu9",
+          "name": "Fetcher",
+          "displayName": "plasmic-data-source-fetcher",
+          "componentImportPath": "@plasmicapp/react-web/lib/data-sources"
+        }
+      ]
+    }
+  ],
+  "globalVariants": {
+    "variantGroups": [
+      {
+        "id": "FOsq2Vqf5LmtLi",
+        "name": "Screen",
+        "projectId": "v51rPtUihCfjY6ALjX9xEj",
+        "contextFilePath": "plasmic/blank_project/PlasmicGlobalVariant__Screen.tsx"
+      }
+    ]
+  },
+  "wrapPagesWithGlobalContexts": true,
+  "cliVersion": "0.1.292",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.292/dist/plasmic.schema.json"
+}
